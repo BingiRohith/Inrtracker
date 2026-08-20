@@ -1,8 +1,12 @@
 # Database
 
-**Status: APPROVED — proposed entities only; no schemas implemented**
+**Status: COMPLETED (Sprint 1B connection foundation); APPROVED (entity design); no schemas implemented**
 
-MongoDB Atlas with Mongoose is selected. No connection code, collection, schema, index, or medical record is implemented yet. `MONGODB_URI` is documented in `.env.example` for the future connection layer. Internal object identifiers are stable system identity; Patient additionally has a non-sensitive human-readable Patient ID such as `VT-000001`.
+MongoDB Atlas with Mongoose is selected. The server-side reusable connection utility at `src/lib/db/mongoose.ts` reads `MONGODB_URI` only from the local server environment. It reuses a process-global cached Mongoose connection during Next.js development and returns generic failures without logging connection details. No collection, schema, index, or medical record is implemented. Internal object identifiers are stable system identity; Patient additionally has a non-sensitive human-readable Patient ID such as `VT-000001`.
+
+## Connection foundation
+
+The development-only `GET /api/internal/database-status` route verifies configuration, establishes the Mongoose connection, and returns only a generic status plus Mongoose ready state. It returns 404 in production and does not expose the database name, connection string, username, password, or connection error details. Sprint 1B verified a successful development connection with ready state `1`. The connection configuration determines the database; the application does not override it or create collections.
 
 ## Proposed entity design
 

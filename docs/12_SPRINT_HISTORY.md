@@ -28,3 +28,18 @@
 - **Unresolved questions:** Authentication/OTP provider, identity verification, jurisdictional privacy/retention/consent, final clinical fields/units/visibility/amendment policy, and Atlas/storage operational choices.
 - **Status:** COMPLETED — architecture review approved.
 - **Git commit:** `f898856d365dedc3b509ae259c3e6728ec6429da` — `docs(architecture): define ValveTrack data and security architecture`.
+
+## Sprint 1B — MongoDB foundation: connection setup
+
+- **Date:** 2026-08-20
+- **Objective:** Implement and verify only the reusable MongoDB Atlas/Mongoose connection foundation.
+- **Implemented items:** Server-side reusable Mongoose connection cache and development-only non-sensitive connection-status verification route.
+- **Files/modules affected:** `src/lib/db/mongoose.ts`, `src/lib/db/README.md`, and `src/app/api/internal/database-status/route.ts`.
+- **Database changes:** Connection verified against the configured development database; no schemas, collections, indexes, sample data, or clinical models were created.
+- **API changes:** Development-only technical `GET /api/internal/database-status`; it is unavailable in production and is not a clinical API.
+- **UI changes:** None.
+- **Tests:** MONGODB_URI presence check, live Mongoose connection verification (ready state `1`), ESLint, TypeScript type check, Prettier documentation check, Git whitespace check, and production build passed.
+- **Documentation changes:** Updated architecture, database, testing, changelog policy, sprint history, and root changelog.
+- **Known issues:** `.env.example` was already deleted in the working tree before Sprint 1B and is intentionally not restored or committed by this sprint.
+- **Status:** COMPLETED — connection verification passed.
+- **Git commit:** `feat(database): establish MongoDB foundation`.
