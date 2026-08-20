@@ -4,7 +4,7 @@ ValveTrack is a healthcare-oriented web application foundation for organizing cl
 
 ## Current status
 
-Sprint 0 is complete locally: the repository contains a Next.js application shell, engineering tooling, and planning documentation. No authentication, database schema, patient records, clinical workflow, or automated clinical advice is implemented.
+Sprint 0 is completed and pushed. Sprint 1A has produced a design blueprint that is ready for review. No authentication, database schema, patient records, clinical workflow, or automated clinical advice is implemented.
 
 ## Development
 

@@ -1,5 +1,5 @@
 # API documentation
 
-**Status: NOT IMPLEMENTED**
+**Status: NOT IMPLEMENTED — architecture defined in Sprint 1A**
 
-No public API routes, route handlers, server actions, or API contracts exist in Sprint 0. Future endpoints must be documented here with authentication, authorization, validation, request/response schemas, error behavior, and audit effects.
+No public API routes, route handlers, server actions, or API contracts exist. Future write and read paths must perform server-side authentication, authorization (including active DoctorPatient checks), validation, audit emission, and safe error handling before responding.

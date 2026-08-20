@@ -4,6 +4,11 @@ All meaningful project changes are recorded here.
 
 ## [Unreleased]
 
+### Documentation
+
+- Defined the reviewed-pending architecture, authorization boundaries, proposed data entities, historical clinical-record policy, and security requirements for Sprint 1A.
+- Recorded Sprint 0 as completed and pushed to GitHub.
+
 ## [0.1.0] - 2026-08-20
 
 ### Added

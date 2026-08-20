@@ -11,6 +11,20 @@
 - **UI changes:** Responsive branded landing shell with Doctor Portal and Patient Portal placeholders.
 - **Tests:** ESLint passed, TypeScript type check passed, Node test discovery passed with zero tests configured, and the production build passed.
 - **Documentation changes:** Created the Sprint 0 documentation set and requirements source of truth.
-- **Known issues:** No GitHub remote is configured, so this local repository cannot yet be pushed.
-- **Status:** BLOCKED — all local implementation and verification are complete; GitHub remote configuration and push are still required for sprint completion.
-- **Git commit:** `docs(project): initialize ValveTrack Sprint 0 foundation`.
+- **Known issues:** None recorded at completion.
+- **Status:** COMPLETED.
+- **Git commit:** `cceb7bbbcbe83f4b1b9820a8710a1c8908e3f0d9` — `docs(project): initialize ValveTrack Sprint 0 foundation`.
+
+## Sprint 1A — Architecture, security & data model specification
+
+- **Date:** 2026-08-20
+- **Objective:** Produce a reviewed-pending blueprint for authentication boundaries, authorization, clinical-data history, security, and proposed entities without implementing those features.
+- **Decisions:** Provisioned Doctor/Admin accounts; Doctor/clinic-created Patient accounts with later secure activation; explicit active DoctorPatient authorization relationship; stable internal Patient identity plus separate Patient ID; structured historical dosage schedules; distinct INR/PT/APTT records; append-only audit strategy and correction policy.
+- **Documents changed:** README, changelog, requirements, architecture, database, API, authorization, clinical, dosage, file-report, security, changelog-policy, and sprint-history documents.
+- **Database changes:** None; proposed entities only.
+- **API changes:** None.
+- **UI changes:** None.
+- **Tests:** Prettier documentation check, ESLint source check, TypeScript type check, and Git whitespace check passed.
+- **Unresolved questions:** Authentication/OTP provider, identity verification, jurisdictional privacy/retention/consent, final clinical fields/units/visibility/amendment policy, and Atlas/storage operational choices.
+- **Status:** READY FOR REVIEW.
+- **Git commit:** `docs(architecture): define ValveTrack data and security architecture`.
