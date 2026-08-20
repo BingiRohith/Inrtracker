@@ -1,6 +1,6 @@
 # Clinical data model
 
-**Status: READY FOR REVIEW — not implemented**
+**Status: APPROVED — not implemented**
 
 Patient profile: required internal ID, human-readable Patient ID, name/identity details, and date of birth; optional contact and emergency contact; clinician-provided valve surgery history including valve type, position, surgery date, and only other relevant valve details. Sex is captured only where clinically/business-required. Additional fields are future until approved.
 

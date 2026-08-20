@@ -4,7 +4,7 @@ ValveTrack is a healthcare-oriented web application foundation for organizing cl
 
 ## Current status
 
-Sprint 0 is completed and pushed. Sprint 1A has produced a design blueprint that is ready for review. No authentication, database schema, patient records, clinical workflow, or automated clinical advice is implemented.
+Sprint 0 is completed and pushed. Sprint 1A architecture and data/security design is approved and closed. No authentication, database schema, patient records, clinical workflow, or automated clinical advice is implemented.
 
 ## Development
 

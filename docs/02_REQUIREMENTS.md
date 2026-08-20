@@ -1,6 +1,6 @@
 # Requirements — single source of truth
 
-**Status: IN PROGRESS — Sprint 1A design ready for review**
+**Status: IN PROGRESS — Sprint 1A design approved**
 
 This document is the authoritative requirements reference. Requirements are not inferred from implementation.
 

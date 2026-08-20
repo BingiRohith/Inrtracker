@@ -1,6 +1,6 @@
 # Architecture
 
-**Status: COMPLETED (foundation); READY FOR REVIEW (Sprint 1A blueprint)**
+**Status: COMPLETED (foundation); APPROVED (Sprint 1A blueprint)**
 
 The foundation uses Next.js App Router with TypeScript and Tailwind CSS. Source code is organized under `src/`, with routes in `src/app` and shared server utilities reserved for `src/lib`.
 

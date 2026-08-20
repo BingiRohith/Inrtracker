@@ -1,6 +1,6 @@
 # Database
 
-**Status: READY FOR REVIEW — proposed entities only; no schemas implemented**
+**Status: APPROVED — proposed entities only; no schemas implemented**
 
 MongoDB Atlas with Mongoose is selected. No connection code, collection, schema, index, or medical record is implemented yet. `MONGODB_URI` is documented in `.env.example` for the future connection layer. Internal object identifiers are stable system identity; Patient additionally has a non-sensitive human-readable Patient ID such as `VT-000001`.
 

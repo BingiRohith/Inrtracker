@@ -1,6 +1,6 @@
 # File reports
 
-**Status: READY FOR REVIEW — not implemented**
+**Status: APPROVED — not implemented**
 
 Medical reports retain the original PDF/image and database metadata: Patient, optional related INR record, uploader, upload/test date, private storage reference, MIME type, size/checksum, and audit data. Reports are patient-owned data; access uses the same role and relationship authorization as clinical records.
 

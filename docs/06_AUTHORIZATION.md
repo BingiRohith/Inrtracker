@@ -1,6 +1,6 @@
 # Authorization
 
-**Status: READY FOR REVIEW — not implemented**
+**Status: APPROVED — not implemented**
 
 The future system separates Doctor, Patient, and Admin. Every server-side data path must authorize the actor, target entity, and requested action. Changing `/patients/X` to `/patients/Y` must not grant access.
 

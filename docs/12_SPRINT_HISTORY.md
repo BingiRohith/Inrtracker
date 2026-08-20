@@ -18,7 +18,7 @@
 ## Sprint 1A — Architecture, security & data model specification
 
 - **Date:** 2026-08-20
-- **Objective:** Produce a reviewed-pending blueprint for authentication boundaries, authorization, clinical-data history, security, and proposed entities without implementing those features.
+- **Objective:** Produce an approved blueprint for authentication boundaries, authorization, clinical-data history, security, and proposed entities without implementing those features.
 - **Decisions:** Provisioned Doctor/Admin accounts; Doctor/clinic-created Patient accounts with later secure activation; explicit active DoctorPatient authorization relationship; stable internal Patient identity plus separate Patient ID; structured historical dosage schedules; distinct INR/PT/APTT records; append-only audit strategy and correction policy.
 - **Documents changed:** README, changelog, requirements, architecture, database, API, authorization, clinical, dosage, file-report, security, changelog-policy, and sprint-history documents.
 - **Database changes:** None; proposed entities only.
@@ -26,5 +26,5 @@
 - **UI changes:** None.
 - **Tests:** Prettier documentation check, ESLint source check, TypeScript type check, and Git whitespace check passed.
 - **Unresolved questions:** Authentication/OTP provider, identity verification, jurisdictional privacy/retention/consent, final clinical fields/units/visibility/amendment policy, and Atlas/storage operational choices.
-- **Status:** READY FOR REVIEW.
-- **Git commit:** `docs(architecture): define ValveTrack data and security architecture`.
+- **Status:** COMPLETED — architecture review approved.
+- **Git commit:** `f898856d365dedc3b509ae259c3e6728ec6429da` — `docs(architecture): define ValveTrack data and security architecture`.

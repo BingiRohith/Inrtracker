@@ -1,6 +1,6 @@
 # Security
 
-**Status: READY FOR REVIEW (requirements); NOT IMPLEMENTED (controls)**
+**Status: APPROVED (requirements); NOT IMPLEMENTED (controls)**
 
 Future implementation must provide provisioned authentication, secure session handling, appropriate password/OTP handling after provider selection, role separation, active DoctorPatient authorization, patient data isolation, secure report access, input validation, audit logging, rate limiting where appropriate, secret management, and safe error handling.
 

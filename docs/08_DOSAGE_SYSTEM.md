@@ -1,6 +1,6 @@
 # Dosage system
 
-**Status: READY FOR REVIEW — not implemented**
+**Status: APPROVED — not implemented**
 
 A dosage plan is an immutable historical clinical record associated with medication and prescribing doctor. It includes start/end date-time, structured schedule, reason/clinical note where appropriate, status, creation/amendment timestamps, and a link to its replacement or correction where applicable. A new plan is created for every dosage change; prior plans are never overwritten.
 
