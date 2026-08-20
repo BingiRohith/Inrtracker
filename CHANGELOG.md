@@ -8,6 +8,10 @@ All meaningful project changes are recorded here.
 
 - Server-side reusable MongoDB Atlas connection foundation with development-only connectivity verification.
 
+### Fixed
+
+- Restored the safe `.env.example` template for required environment-variable names and local development defaults.
+
 ### Documentation
 
 - Defined and approved the architecture, authorization boundaries, proposed data entities, historical clinical-record policy, and security requirements for Sprint 1A.

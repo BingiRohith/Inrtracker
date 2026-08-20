@@ -40,6 +40,7 @@
 - **UI changes:** None.
 - **Tests:** MONGODB_URI presence check, live Mongoose connection verification (ready state `1`), ESLint, TypeScript type check, Prettier documentation check, Git whitespace check, and production build passed.
 - **Documentation changes:** Updated architecture, database, testing, changelog policy, sprint history, and root changelog.
-- **Known issues:** `.env.example` was already deleted in the working tree before Sprint 1B and is intentionally not restored or committed by this sprint.
+- **Follow-up correction:** Restored the tracked safe `.env.example` template in a separate configuration-fix commit before the next sprint.
+- **Known issues:** None.
 - **Status:** COMPLETED — connection verification passed.
 - **Git commit:** `feat(database): establish MongoDB foundation`.
